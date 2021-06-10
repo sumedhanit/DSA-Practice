@@ -26,3 +26,7 @@ int main()
 
     return 0;
 }
+
+// git add . or filename
+// git commit -m "name"
+// git push -u origin main

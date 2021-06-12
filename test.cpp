@@ -12,16 +12,20 @@ int main()
     {
         cin >> arr[i];
     }
-    int key;
+    int key, flag = 0;
     cin >> key;
 
     for (int i = 0; i < n; i++)
     {
         if (arr[i] == key)
         {
-
-            cout << "Element Found at : " << i << endl;
+            flag = 1;
+            cout << "Element Found at : " << endl;
         }
+    }
+    if (flag)
+    {
+        cout << "element not found" << endl;
     }
 
     return 0;

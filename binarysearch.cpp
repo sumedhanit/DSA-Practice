@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
-
+int binary(int a[], int n, int key);
 int main()
 {
     int a[20], i, key, n;
@@ -13,10 +13,10 @@ int main()
     cout << "enter number do you want to search:" << endl;
     cin >> key;
 
-    binary(a, n);
+    binary(a, n, key);
     return 0;
 }
-void binary(int *arr, int n)
+int binary(int a[], int n, int key)
 {
     int mid;
     int l = 0;
